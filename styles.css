@@ -1,0 +1,20 @@
+label {
+  color: rgb(207, 207, 196);
+}
+
+input:checked ~ label {
+  color: goldenrod;
+}
+.rating {
+  display: flex;
+  flex-direction: row-reverse;
+  width: max-content;
+}
+
+input[name="star"] {
+  display: none;
+}
+
+input:hover ~ label {
+  color: goldenrod;
+}

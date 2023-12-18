@@ -1,0 +1,15 @@
+label {
+  color: rgb(207, 207, 196);
+}
+
+input {
+  display: none;
+}
+
+label:has(~ input:checked) {
+  color: rgb(209, 182, 30);
+}
+
+/* label:has(.rating label ~ input:checked) {
+  color: rgb(209, 182, 30);
+} */
